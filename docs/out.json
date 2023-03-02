@@ -1,0 +1,319 @@
+{
+	"id": 0,
+	"name": "index.md - v1.0.0-alpha.1",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "index.md",
+	"children": [
+		{
+			"id": 13,
+			"name": "rm",
+			"kind": 8388608,
+			"kindString": "Reference",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "src/index.ts",
+					"line": 11,
+					"character": 9,
+					"url": "https://github.com/saqqdy/rm-all/blob/3921a82/src/index.ts#L11"
+				}
+			],
+			"target": 4
+		},
+		{
+			"id": 14,
+			"name": "rmSync",
+			"kind": 8388608,
+			"kindString": "Reference",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "src/index.ts",
+					"line": 11,
+					"character": 13,
+					"url": "https://github.com/saqqdy/rm-all/blob/3921a82/src/index.ts#L11"
+				}
+			],
+			"target": 9
+		},
+		{
+			"id": 1,
+			"name": "default",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "src/index.ts",
+					"line": 12,
+					"character": 0,
+					"url": "https://github.com/saqqdy/rm-all/blob/3921a82/src/index.ts#L12"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 2,
+					"name": "__type",
+					"kind": 65536,
+					"kindString": "Type literal",
+					"flags": {},
+					"children": [
+						{
+							"id": 3,
+							"name": "rm",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 12,
+									"character": 17,
+									"url": "https://github.com/saqqdy/rm-all/blob/3921a82/src/index.ts#L12"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 4,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "node_modules/.pnpm/@node-kit+extra.fs@2.3.0/node_modules/@node-kit/extra.fs/dist/index.d.ts",
+											"line": 62,
+											"character": 24
+										}
+									],
+									"signatures": [
+										{
+											"id": 5,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "remove file"
+													}
+												]
+											},
+											"parameters": [
+												{
+													"id": 6,
+													"name": "paths",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "path or file, support array"
+															}
+														]
+													},
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "PathLike",
+																"qualifiedName": "PathLike",
+																"package": "@types/node"
+															},
+															{
+																"type": "array",
+																"elementType": {
+																	"type": "reference",
+																	"name": "PathLike",
+																	"qualifiedName": "PathLike",
+																	"package": "@types/node"
+																}
+															}
+														]
+													}
+												},
+												{
+													"id": 7,
+													"name": "options",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isOptional": true
+													},
+													"type": {
+														"type": "reference",
+														"name": "Options",
+														"qualifiedName": "Options",
+														"package": "@node-kit/extra.fs"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "void"
+													}
+												],
+												"name": "Promise",
+												"qualifiedName": "Promise",
+												"package": "typescript"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 8,
+							"name": "rmSync",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "src/index.ts",
+									"line": 12,
+									"character": 21,
+									"url": "https://github.com/saqqdy/rm-all/blob/3921a82/src/index.ts#L12"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 9,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "node_modules/.pnpm/@node-kit+extra.fs@2.3.0/node_modules/@node-kit/extra.fs/dist/index.d.ts",
+											"line": 69,
+											"character": 24
+										}
+									],
+									"signatures": [
+										{
+											"id": 10,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "remove file sync"
+													}
+												]
+											},
+											"parameters": [
+												{
+													"id": 11,
+													"name": "paths",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "path or file, support array"
+															}
+														]
+													},
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "PathLike",
+																"qualifiedName": "PathLike",
+																"package": "@types/node"
+															},
+															{
+																"type": "array",
+																"elementType": {
+																	"type": "reference",
+																	"name": "PathLike",
+																	"qualifiedName": "PathLike",
+																	"package": "@types/node"
+																}
+															}
+														]
+													}
+												},
+												{
+													"id": 12,
+													"name": "options",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isOptional": true
+													},
+													"type": {
+														"type": "reference",
+														"name": "Options",
+														"qualifiedName": "Options",
+														"package": "@node-kit/extra.fs"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [3, 8]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/index.ts",
+							"line": 12,
+							"character": 15,
+							"url": "https://github.com/saqqdy/rm-all/blob/3921a82/src/index.ts#L12"
+						}
+					]
+				}
+			}
+		}
+	],
+	"groups": [
+		{
+			"title": "References",
+			"children": [13, 14]
+		},
+		{
+			"title": "Variables",
+			"children": [1]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "src/index.ts",
+			"line": 1,
+			"character": 0,
+			"url": "https://github.com/saqqdy/rm-all/blob/3921a82/src/index.ts#L1"
+		}
+	]
+}

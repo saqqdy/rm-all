@@ -1,11 +1,4 @@
-// import extend from 'js-cool/lib/extend'
+import { rm, rmSync } from '@node-kit/extra.fs'
 
-function rm() {
-	return {}
-}
-
-function rmSync() {
-	return {}
-}
-
-export { rm, rmSync, rm as default }
+export { rm, rmSync }
+export default { rm, rmSync }

@@ -2,7 +2,6 @@ import type { RollupOptions } from 'rollup'
 import nodeResolve from '@rollup/plugin-node-resolve'
 import babel from '@rollup/plugin-babel'
 import commonjs from '@rollup/plugin-commonjs'
-import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import alias, { type ResolverObject } from '@rollup/plugin-alias'
 import filesize from 'rollup-plugin-filesize'
@@ -21,10 +20,6 @@ const nodeResolver = nodeResolve({
 	exportConditions: ['node'],
 	moduleDirectories: ['node_modules']
 })
-const iifeGlobals = {
-	'js-cool': 'JsCool',
-	axios: 'Axios'
-}
 
 const options: RollupOptions = {
 	plugins: [
@@ -77,6 +72,18 @@ export default [
 				file: pkg.module,
 				exports: 'auto',
 				format: 'es',
+				banner
+			}
+		],
+		...options
+	},
+	{
+		input: 'src/rm-all.ts',
+		output: [
+			{
+				file: 'dist/rm-all.js',
+				exports: 'auto',
+				format: 'cjs',
 				banner
 			}
 		],
