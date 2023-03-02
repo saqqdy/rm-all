@@ -29,11 +29,11 @@ program
 	.action(async (paths: string[], options: RmAllOption = {}) => {
 		paths = paths.map(path => path.split(',')).flat(1)
 		if (options.dryRun) {
-			console.info(paths, options)
+			console.info('[DRY_RUN]: ', paths, options)
 			return
 		}
 		rmSync(paths)
-		console.info(`"${paths.join(',')}" has been deleted`)
+		console.info(`[SUCCESS]: "${paths.join(',')}" has been deleted`)
 	})
 
 // 自定义帮助

@@ -1,6 +1,6 @@
-[index.md - v1.0.0-beta.1](README.md) / Exports
+[index.md - v1.0.0](README.md) / Exports
 
-# index.md - v1.0.0-beta.1
+# index.md - v1.0.0
 
 ## Table of contents
 
@@ -40,4 +40,4 @@ Renames and re-exports [\_\_type](modules.md#__type)
 
 #### Defined in
 
-[src/index.ts:4](https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L4)
+[src/index.ts:4](https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L4)

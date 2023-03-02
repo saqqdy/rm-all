@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "index.md - v1.0.0-beta.1",
+	"name": "index.md - v1.0.0",
 	"kind": 1,
 	"kindString": "Project",
 	"flags": {},
@@ -17,7 +17,7 @@
 					"fileName": "src/index.ts",
 					"line": 3,
 					"character": 9,
-					"url": "https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L3"
+					"url": "https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L3"
 				}
 			],
 			"target": 4
@@ -33,7 +33,7 @@
 					"fileName": "src/index.ts",
 					"line": 3,
 					"character": 13,
-					"url": "https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L3"
+					"url": "https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L3"
 				}
 			],
 			"target": 9
@@ -49,7 +49,7 @@
 					"fileName": "src/index.ts",
 					"line": 4,
 					"character": 0,
-					"url": "https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L4"
+					"url": "https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L4"
 				}
 			],
 			"type": {
@@ -72,7 +72,7 @@
 									"fileName": "src/index.ts",
 									"line": 4,
 									"character": 17,
-									"url": "https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L4"
+									"url": "https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L4"
 								}
 							],
 							"type": {
@@ -185,7 +185,7 @@
 									"fileName": "src/index.ts",
 									"line": 4,
 									"character": 21,
-									"url": "https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L4"
+									"url": "https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L4"
 								}
 							],
 							"type": {
@@ -294,7 +294,7 @@
 							"fileName": "src/index.ts",
 							"line": 4,
 							"character": 15,
-							"url": "https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L4"
+							"url": "https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L4"
 						}
 					]
 				}
@@ -321,7 +321,7 @@
 			"fileName": "src/index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/saqqdy/rm-all/blob/7df037a/src/index.ts#L1"
+			"url": "https://github.com/saqqdy/rm-all/blob/a2090ad/src/index.ts#L1"
 		}
 	]
 }
