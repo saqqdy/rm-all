@@ -24,16 +24,40 @@ A simple deep deletion module for node (like `rm -rf`)
 
 ```bash
 # use pnpm
-$ pnpm install rm-all
+$ pnpm install -g rm-all
 
 # use npm
-$ npm install rm-all --save
+$ npm install -g rm-all
 
 # use yarn
-$ yarn add rm-all
+$ yarn global add rm-all
 ```
 
 ## Usage
+
+1. Delete all files in lib and dist.
+
+```bash
+rm-all dist lib
+# or
+rmall dist lib
+# or
+rma dist lib
+```
+
+2. Use commas to separate multiple paths
+
+```bash
+rm-all dist,lib
+# or
+rmall dist,lib
+# or
+rma dist,lib
+```
+
+3. Using wildcards
+
+Not support yet
 
 ## Support & Issues
 
