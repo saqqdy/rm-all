@@ -2,10 +2,10 @@
 	"compilerOptions": {
 		"allowJs": true,
 		"strict": true,
-		"module": "ESNext",
+		"module": "EsNext",
 		"noImplicitAny": true,
 		"removeComments": true,
-		"moduleResolution": "node",
+		"moduleResolution": "Node",
 		"noImplicitOverride": true,
 		"noUnusedLocals": true,
 		"esModuleInterop": true,

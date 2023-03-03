@@ -1,15 +1,14 @@
 #!/usr/bin/env ts-node
 
-import { createRequire } from 'node:module'
-import { program } from 'commander'
+import { Command } from 'commander'
+import { version } from '../package.json'
 import { rmSync } from '.'
-
-const require = createRequire(import.meta.url)
-const { version } = require('../package.json')
 
 export interface RmAllOption {
 	dryRun?: boolean
 }
+
+const program = new Command()
 
 program.version(
 	`v${version}, powered by saqqdy<saqqdy@qq.com>`,
