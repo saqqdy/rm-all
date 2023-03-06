@@ -53,7 +53,7 @@
 	},
 	"dependencies": {
 		"@node-kit/extra.fs": "^2.3.0",
-		"chalk": "^4.1.2",
+		"chalk": "^5.2.0",
 		"commander": "^10.0.0",
 		"consola": "^2.15.3",
 		"core-js": "^3.29.0",
