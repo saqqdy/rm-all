@@ -1,7 +1,6 @@
 #!/usr/bin/env ts-node
 
 import { Command } from 'commander'
-import { version } from '../package.json'
 import { rmSync } from '@node-kit/extra.fs'
 
 export interface RmAllOption {
@@ -9,6 +8,7 @@ export interface RmAllOption {
 }
 
 const program = new Command()
+const version = '__VERSION__' as string
 
 program.version(
 	`v${version}, powered by saqqdy<saqqdy@qq.com>`,

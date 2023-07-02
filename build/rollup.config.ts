@@ -6,8 +6,9 @@ import cleanup from 'rollup-plugin-cleanup'
 import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import filesize from 'rollup-plugin-filesize'
+import replace from '@rollup/plugin-replace'
 import { visualizer } from 'rollup-plugin-visualizer'
-import { banner, extensions, reporter } from './config'
+import { banner, extensions, reporter, version } from './config'
 
 export interface Config {
 	input: string
@@ -45,7 +46,7 @@ const configs: Config[] = [
 	},
 	{
 		input: 'src/rm-all.ts',
-		file: 'dist/rm-all.cjs.js',
+		file: 'dist/rm-all.js',
 		format: 'cjs',
 		env: 'development'
 	}
@@ -90,10 +91,17 @@ function createEntry(config: Config) {
 	}
 
 	if (!isGlobalBuild) {
-		_config.external.push('core-js', 'js-cool')
+		_config.external.push('core-js', 'js-cool', 'commander', '@node-kit/extra.fs')
 	}
 
-	_config.plugins.push(nodeResolve(), commonjs())
+	_config.plugins.push(
+		replace({
+			preventAssignment: true,
+			__VERSION__: version
+		}),
+		nodeResolve(),
+		commonjs()
+	)
 
 	if (config.transpile !== false) {
 		!isTranspiled &&
