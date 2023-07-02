@@ -16,8 +16,6 @@ A simple deep deletion module for node (like `rm -rf`)
 
 <div style="text-align: center; margin-bottom: 20px;" align="center">
 
-### **[Documentation](https://www.saqqdy.com/rm-all)** • **[Change Log](./CHANGELOG.md)**
-
 </div>
 
 ## Installing
