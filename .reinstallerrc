@@ -2,7 +2,7 @@
     "packageTags": {
         "reinstaller": "latest"
     },
-    "exclude": ["chalk"],
+    "exclude": [],
     "packageManager": "pnpm",
     "registry": "https://registry.npmmirror.com"
 }

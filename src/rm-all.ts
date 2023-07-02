@@ -2,7 +2,7 @@
 
 import { Command } from 'commander'
 import { version } from '../package.json'
-import { rmSync } from '.'
+import { rmSync } from '@node-kit/extra.fs'
 
 export interface RmAllOption {
 	dryRun?: boolean
