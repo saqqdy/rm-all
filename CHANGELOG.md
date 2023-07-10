@@ -1,5 +1,10 @@
 # Change logs
 
+## 2023.07.10 v1.1.1
+
+1. hide no-need logs
+2. upgrade @node-kit/extra.fs
+
 ## 2023.07.02 v1.1.0
 
 1. upgrade extra.fs to v3.0.0 [@node-kit/extra.fs](https://github.com/saqqdy/node-kit/tree/master/packages/extra/fs)
